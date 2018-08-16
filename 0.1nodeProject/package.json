@@ -1,13 +1,15 @@
 {
-    "name": "0.1nodeProject",
-    "version": "0.0.1",
-    "dependencies": {
-        "koa": "2.5.2",
-        "express": "^4.16.3",
-        "pg": "^7.4.3",
-        "sequelize": "^4.38.0",
-        "koa-router": "^7.4.0",
-        "koa-static": "^5.0.0"
-    },
-    "author": "defgao"
+  "name": "0.1nodeProject",
+  "version": "0.0.1",
+  "dependencies": {
+    "koa": "2.5.2",
+    "express": "^4.16.3",
+    "pg": "^7.4.3",
+    "sequelize": "^4.38.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "request": "^2.88.0",
+    "cheerio": "^1.0.0-rc.2"
+  },
+  "author": "defgao"
 }
