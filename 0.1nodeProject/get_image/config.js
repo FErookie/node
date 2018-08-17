@@ -1,4 +1,4 @@
-const url = 'https://www.douban.com/photos/album/127582785/';
+const url = 'http://www.ui.cn/detail/382680.html';
 const path = require('path');
 const imageDir = path.join(__dirname , 'image');
 
