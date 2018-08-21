@@ -1,0 +1,15 @@
+{
+  "name": "0.3internet",
+  "version": "1.0.0",
+  "description": "net",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "node"
+  },
+  "author": "defgao",
+  "license": "ISC"
+}
