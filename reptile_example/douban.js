@@ -112,7 +112,7 @@ const __main = function() {
     // 下载网页, 解析出电影信息, 保存到文件
 
     for(let i = 0 ; i < 10 ; i++) {
-        
+
         const url = 'https://movie.douban.com/top250?start=' + i*25 + '&filter=';
         moviesFromUrl(url);
     }
