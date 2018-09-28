@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script src="https://cdn.bootcss.com/d3/4.13.0/d3.js"></script>
+<script>
+    let width = 300;
+    let height = 300;
+    let svg = d3.select('body').append('svg').attr('width' , width).attr('heigth', height);
+    var dataset = [ 250 , 210 , 170 , 130 , 90 ];
+    var rectHeight = 25;   //每个矩形所占的像素高度(包括空白)
+
+    svg.selectAll("rect")
+        .data(dataset)
+        .enter()
+        .append("rect")
+        .attr("x",20)
+        .attr("y",function(d,i){
+            return i * rectHeight;
+        })
+        .attr("width",function(d){
+            return d;
+        })
+        .attr("height",rectHeight-2)
+        .attr("fill","steelblue");
+        //基本的svg画布以及简单的数据表示
+
+</script>
+</html>
